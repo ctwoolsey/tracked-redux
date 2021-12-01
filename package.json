@@ -27,7 +27,8 @@
     "test": "npm-run-all lint:* test:*",
     "test:ember": "ember test",
     "test:ember-compatibility": "ember try:each",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "prepare": "ember build --environment=production"
   },
   "dependencies": {
     "@glimmer/env": "^0.1.7",
