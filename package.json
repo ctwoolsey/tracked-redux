@@ -28,7 +28,7 @@
     "test:ember": "ember test",
     "test:ember-compatibility": "ember try:each",
     "prepublish": "tsc",
-    "prepare": "ember build --environment=production"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@glimmer/env": "^0.1.7",
